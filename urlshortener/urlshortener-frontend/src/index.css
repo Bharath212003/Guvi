@@ -1,0 +1,211 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.container {
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.text-success {
+  color: #28a745;
+}
+
+.card {
+  padding: 20px;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 10px 20px;
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffc107;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
+
+/* Login Page Styles */
+.login-container {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.login-container .form-group {
+  margin-bottom: 15px;
+}
+
+.login-container button {
+  width: 100%;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+/* Register Page Styles */
+.register-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-container .form-group {
+  margin-bottom: 15px;
+}
+
+.register-container button {
+  width: 100%;
+}
+
+/* Forgot Password Page Styles */
+.forgot-password-container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.forgot-password-container .form-group {
+  margin-bottom: 15px;
+}
+
+.forgot-password-container button {
+  width: 100%;
+}
+
+/* Short URL Form Styles */
+.short-url-container {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.short-url-container input {
+  width: 100%;
+}
+
+.short-url-container button {
+  margin-top: 10px;
+}
+
+.short-url-container .form-group {
+  margin-bottom: 15px;
+}
+
+/* Dashboard Page Styles */
+.dashboard-container {
+  margin-top: 30px;
+  padding: 20px;
+}
+
+.dashboard-container h3 {
+  margin-bottom: 20px;
+}
+
+.dashboard-container .chart-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* URL Table Styles */
+.url-table-container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.url-table-container table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.url-table-container table th, 
+.url-table-container table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+.url-table-container table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.url-table-container table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #007bff;
+}
+
+.navbar .navbar-brand {
+  color: white;
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffc107;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffc107;
+}
