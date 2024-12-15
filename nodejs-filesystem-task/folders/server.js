@@ -40,7 +40,7 @@ app.get('/list-files', (req, res) => {
     });
 });
 
-// Start the server
-app.listen(PORT, () => {
+// Start the server (bind to 0.0.0.0 for external access on Render)
+app.listen(PORT, '0.0.0.0', () => {
     console.log(`Server is running on http://localhost:${PORT}`);
 });
